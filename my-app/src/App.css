@@ -1,0 +1,12 @@
+
+h1 {
+  margin-top: 0px;
+    margin-bottom: 1rem;
+}
+h1, h2 {
+    text-align: center;
+    padding: 1rem;
+    backdrop-filter: blur(15px);
+    background-color: #2223;
+    color: #222;
+}

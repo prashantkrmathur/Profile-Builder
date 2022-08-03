@@ -40,12 +40,12 @@ const FieldOptions = () => {
         <div className="bio-element">
           <input type="checkbox" id="religion" name="religion"></input>
           <label for="religion">Religious Background</label>
-          <textarea type="text" name="religion-textbox"></textarea>
+          <textarea type="text" name="religion-textbox" style={{ width: '525px', height: '100px' }}></textarea>
           <button>Random Religion</button>
         </div>
         <div className="bio-element">
           <label for="desire"> Reason for meeting with missionaries</label>
-          <textarea type="text" name="desire-textbox"></textarea>
+          <textarea type="text" name="desire-textbox" style={{width:'525px', height:'100px'}}></textarea>
           <button className="restoration">Restoration</button>
           <button className="plan-of-salvation">Plan of Salvation</button>
           <button className="gospel-of-christ">Gospel of Christ</button>

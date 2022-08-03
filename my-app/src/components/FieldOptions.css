@@ -1,0 +1,36 @@
+.settings {
+    border-radius: 0;
+    max-width: 600px;
+    margin: 1rem;
+    border: 1px solid red;
+}
+.h2 {
+    text-align: center;
+    padding: 1rem;
+    backdrop-filter: blur(15px);
+    background-color: #2223;
+    color: #222;
+}
+.bio-element, .bio-output {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #2223;
+    border-radius: 0;
+    backdrop-filter: blur(15px);
+}
+label {
+    vertical-align: middle;
+    margin-right: auto;
+    margin: 3px;
+    margin-bottom: 6px;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+}
+button {
+    padding: 3px;
+    margin: 5px;
+    background-color: #ddd9;
+    border: 1px solid;
+    transition: .3s;
+}

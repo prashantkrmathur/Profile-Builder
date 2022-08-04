@@ -6,7 +6,7 @@ const Result = (props) => {
   return (
     <div className='settings'>
       <h2>Result</h2>
-      <div style={{ fontSize: '20px' }} className='bio-output'>
+      <div style={{ fontSize: '22px' }} className='bio-output'>
         {isLocation && <span>{`${name}`} is from {`${location}`}.</span>}
         {isSchool && <span>{gender === 'Male' ? 'He' : 'She'} is studying {`${major}`} from {`${school}`}. </span>}
         {isOccupation && <span>{gender === 'Male' ? 'He' : 'She'} currently works as a {`${occupation}`}. </span>}

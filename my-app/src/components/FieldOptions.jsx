@@ -36,8 +36,8 @@ const FieldOptions = (props) => {
         </div>
         <div className="bio-element">
           <input type="checkbox" id="occupation" name="occupation" checked={isOccupation} ></input>
-          <input type="text" name="occupation-textbox" value={occupation}></input>
           <label for="occupation">Occupation</label>
+          <input type="text" name="occupation-textbox" value={occupation}></input>
           <button>Random Occupation</button>
         </div>
         <div className="bio-element">

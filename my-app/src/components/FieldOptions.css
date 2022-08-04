@@ -2,7 +2,6 @@
     border-radius: 0;
     max-width: 600px;
     margin: 1rem;
-    border: 1px solid red;
 }
 .h2 {
     text-align: center;
@@ -33,4 +32,11 @@ button {
     background-color: #ddd9;
     border: 1px solid;
     transition: .3s;
+}
+.bio-output {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #2223;
+    border-radius: 0;
+    backdrop-filter: blur(15px);
 }

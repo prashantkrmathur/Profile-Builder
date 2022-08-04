@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FieldOptions from './FieldOptions';
-import Result from './Result';
+import Result from './Result'; 
 import "./Main.css";
 
 const Main = () => {
@@ -13,9 +13,9 @@ const Main = () => {
   const [major, setMajor] = useState('B.tech In Information Technology');
   const [occupation, setOccupation] = useState('Software Development Engineer');
   const [isOccupation, setIsOccupation] = useState(true);
-  const [religiousBackground, setReligiousBackground] = useState('Hindu');
+  const [religiousBackground, setReligiousBackground] = useState('in a Hindu family and proud of his religion and the religious belive in the divine');
   const [isReligious, setIsReligious] = useState(true);
-  const [reason, setReason] = useState('To understand the culture');
+  const [reason, setReason] = useState('started to visit church to understand the culture');
   const [isReason, setIsReason] = useState(true);
   
   return (
@@ -48,7 +48,21 @@ const Main = () => {
         isReason={isReason}
         setIsReason={setIsReason}
       />
-      <Result/>
+      <Result
+        name={name}
+        gender={gender}
+        location={location}
+        isLocation={isLocation}
+        school={school}
+        isSchool={isSchool}
+        major={major}
+        occupation={occupation}
+        isOccupation={isOccupation}
+        religiousBackground={religiousBackground}
+        isReligious={isReligious}
+        reason={reason}
+        isReason={isReason}
+      />
     </div>
   )
 }
